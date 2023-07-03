@@ -1,22 +1,26 @@
 body {
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
 }
 
 .main_div {
-    background-image: url("https://wallpapercave.com/wp/wp6899583.jpg");
+    background-image: url("../images/main.jpg");
+    background-size: 100%;
     height: 1080px;
     width: auto;
     margin: 0px;
     padding: 0px;
     background-repeat: no-repeat;
+    color: white;
+    position: relative;
 }
 
 .header_div {
     color: #666666;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     padding: 10px;
     text-align: center;
+    margin: 0;
 }
 
 .left_header {
@@ -38,4 +42,22 @@ body {
 
 header {
     background-color: black;
+}
+
+.a {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+}
+
+.company_name {
+    margin-right: 250px;
+    font-size: 50px;
+}
+
+.slogan {
+    margin-left: 20px;
+    font-size: 30px;
 }
